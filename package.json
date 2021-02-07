@@ -1,0 +1,29 @@
+{
+    "name": "sixcord-bot-example",
+    "version": "1.0.1",
+    "description": "A simple Discord bot open-source.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/v1devv/DiscordBot.git"
+    },
+    "author": "v1devv",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/v1devv/DiscordBot/issues"
+    },
+    "homepage": "https://github.com/v1devv/DiscordBot#readme",
+    "dependencies": {
+        "ejs": "^3.1.5",
+        "express": "^4.17.1",
+        "discord.js": "^12.5.1",
+        "fs": "0.0.1-security",
+        "node": "^15.4.0",
+        "node-html-parser": "^2.1.0",
+        "npm": "^6.14.11",
+        "sixcord.js" "^1.0.0"
+    }
+}
