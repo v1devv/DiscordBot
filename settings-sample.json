@@ -1,4 +1,23 @@
-{
-    "prefix": "BOT_PREFIX",
-    "token": "BOT_TOKEN"
+{   
+    "settings": {
+        "prefix": "BOT_PREFIX", /* Customize bot's prefix */
+        "token": "BOT_TOKEN", /* https://discord.com/developers */
+    },
+    
+    "support": {
+        "id": "XXXXXXXXX", /* Enable Developer Mode */
+        "logs": "XXXXXXXXX", /* Channel used for bot logs. tip: make it private. */
+    },
+    
+    "owner": {
+        "id": "XXXXXXXXX", /* used for eval commands, etc.. */
+        "username": "Dev#0000" /* Your Discord username */
+    },
+    
+    "dashboard": {
+        "enabled": "false", // don't enable it, since dashboard isn't done yet. */
+        "website": "https://sixcord.xyz/", /* Dashboard URL */
+        "port": "3000",
+        "logs": "XXXXXXXXX" // Channel used for dashboard logs.
+    }
 }
